@@ -26,11 +26,7 @@ p {
 }
 
 #video-lost iframe {
-    display: flex;
     width: 28rem;
-    /* margin-top: 2rem;
-    margin: 0.2rem;
-    margin-bottom: 0.2rem; */
     height: 18rem;
 }
 
