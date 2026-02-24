@@ -1,0 +1,203 @@
+/* #291528 dark purple
+#3A3E3B moss green
+#F0EFF4 white
+#C4A7C2 pink purple
+
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+    font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+ */
+
+
+html {
+    font-size: max(12px, 2vw);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    text-align: center;
+    background-color: #291528;
+    width: 100%;
+    font-size: 0.5rem;
+
+    text-decoration: none;
+    z-index: 1;
+}
+
+.sobre-mim {
+    text-decoration: none;
+}
+
+.capacidades {
+    text-decoration: none;
+
+}
+
+#div {
+    border: solid 0.2rem #C4A7C2;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+    text-align: center;
+    font-size: 16px;
+    max-width: 100%;
+
+    margin-top: 4rem;
+
+}
+
+h3 {
+    border: solid 0.1rem #C4A7C2;
+    margin-top: 1rem;
+    padding: 0.2rem;
+
+    text-align: center;
+    font-size: 12px;
+}
+
+.sobre-mim:hover {
+    color: #C4A7C2;
+    background: #F0EFF4;
+}
+
+.capacidades:hover {
+    color: #C4A7C2;
+    background: #F0EFF4;
+}
+
+.header:hover {
+    color: #C4A7C2;
+    background: #291528;
+}
+
+.footer:hover {
+    color: #291528;
+    background: #C4A7C2;
+}
+
+body {
+    background-color: #F0EFF4;
+    font-family: "Saira", sans-serif;
+    margin: 0;
+}
+
+nav {
+    z-index: 10;
+}
+
+nav li {
+    display: inline;
+    margin: 35px;
+}
+
+nav a {
+    color: #F0EFF4;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+}
+
+footer {
+    position: fixed;
+    margin-top: 1rem;
+    padding: 0.1rem;
+    bottom: 0;
+    padding-left: 0;
+    font-size: 0.5rem;
+
+
+    background-color: #C4A7C2;
+    text-align: center;
+    width: 100%;
+}
+
+footer li {
+    display: inline;
+    margin: 30px;
+}
+
+footer ol {
+    padding-left: 0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+@media (max-width:426px) {
+
+    header {
+        height: 5rem;
+        font-size: 0.8rem;
+    }
+
+    footer {
+        height: 5rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+    footer {
+        position: static;
+        margin-top: 1rem;
+    }
+
+}
+
+@media (max-width:426px) {
+    footer {
+        margin-top: 1rem;
+        padding: 0.1rem;
+    }
+
+    header {
+        font-size: 1rem;
+        height: 8rem;
+        padding-right: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    nav li {
+        display: block;
+        margin: 0px;
+        text-align: right;
+    }
+
+    #Dayane {
+        text-align: left;
+    }
+}
+
+@media (max-width:768px) {
+    header {
+        font-size: 80%;
+    }
+
+    footer {
+        font-size: 1rem;
+        margin-bottom: 1;
+        padding-bottom: 0;
+    }
+}

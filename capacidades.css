@@ -1,0 +1,178 @@
+/* #div {
+    border: solid 0.1rem #C4A7C2;
+    padding: 80px;
+
+    text-align: center;
+    font-size: 16px;
+
+    margin-right: 13rem;
+    margin-top: 4rem;
+} */
+
+h3 {
+    border: solid 0.1rem #C4A7C2;
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-left: 0;
+
+    text-align: center;
+    font-size: 10px;
+
+    width: 100%;
+
+}
+
+#softwares {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: solid 0.1rem #C4A7C2;
+
+    font-size: 17px;
+
+    margin-top: 4rem;
+    margin-left: 2rem;
+    width: 35%;
+}
+
+#softwares div {
+    width: 100%;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+#softwares p {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#softwares ul {
+    margin-bottom: 0;
+}
+
+ul li {
+    display: block;
+}
+
+ul {
+    margin: 0;
+    margin-bottom: 2.6rem;
+    padding: 0 0 0 0;
+}
+
+p {
+    padding: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+#div {
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 50px;
+
+    align-content: center;
+}
+
+
+#h3 {
+
+    margin-right: 20rem;
+
+    text-align: center;
+    font-size: 12px;
+}
+
+h3 {
+    padding: 0.2rem;
+}
+
+.sobre-mim {
+    text-decoration: none;
+}
+
+.capacidades {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:750px) {
+    #div {
+        padding: 60px 30px;
+        font-size: 1rem;
+    }
+
+    .sobre-mim h2 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:426px) {
+
+    nav li {
+        display: block;
+        margin: 0px;
+        text-align: right;
+    }
+
+    #h3 {
+        padding-left: 5rem;
+        font-size: 7rem;
+    }
+
+    .sobre-mim {
+        font-size: 1.2rem;
+    }
+
+    .capacidades {
+        font-size: 1.2rem;
+    }
+
+    #softwares {
+        font-size: 1rem;
+    }
+
+    p {
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+
+    #Dayane {
+        text-align: left;
+    }
+}
+
+@media (max-width:376px) {
+    h3 {
+        margin-left: 2rem;
+    }
+
+    a.capacidades {
+        align-items: center;
+    }
+
+
+}
+
+@media (max-width:320px) {
+    main {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 90vh;
+        align-content: center;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+}

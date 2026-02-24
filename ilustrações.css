@@ -1,0 +1,128 @@
+/* #291528 dark purple
+#3A3E3B moss green
+#F0EFF4 white
+#C4A7C2 pink purple */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    margin: 0;
+    padding: 0;
+    font-size: 50%;
+
+    height: 100%;
+    margin-bottom: 3rem;
+}
+
+footer {
+    position: fixed;
+}
+
+section {
+    width: 48%;
+}
+
+p {
+    font-size: 0.7rem;
+    padding-top: 1rem;
+    margin: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+div img {
+    width: 100%;
+}
+
+#desenhos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.desenhos:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(128, 0, 32, 0.2);
+}
+
+
+#one,
+#two,
+#zero {
+    width: 30%;
+    background-color: #fdfaf5;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(128, 0, 32, 0.1);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#zero,
+#two {
+    align-self: center;
+}
+
+#three,
+#four {
+    width: 45%;
+    margin-top: 0.5rem;
+    background-color: #fdfaf5;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(128, 0, 32, 0.1);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.desenhos img {
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+
+#four img {
+    height: 97%;
+}
+
+@media (max-width:768px) {
+    section {
+        margin-top: 4rem;
+        width: 60%;
+    }
+}
+
+@media (max-width:426px) {
+    .Dayane {
+        text-align: left;
+    }
+
+    section {
+        width: 30rem;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 80vh;
+        align-content: center;
+    }
+
+    p {
+        font-size: 1rem;
+        padding-top: 0;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    #desenhos {
+        height: 20rem;
+        width: 25rem;
+
+    }
+
+    main {
+        align-self: center;
+    }
+}

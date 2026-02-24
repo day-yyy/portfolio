@@ -1,0 +1,144 @@
+main {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    font-size: 50%;
+}
+
+.pele2025 {
+    margin: 3.5rem 2rem 2rem 2rem;
+    margin-bottom: 0;
+    align-content: center;
+    text-align: center;
+    font-size: 0.4rem;
+}
+
+#pele {
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+#divpele {
+    display: flex;
+    margin: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.video video {
+    width: 23rem;
+}
+
+.cartaz {
+    width: 60%;
+    margin-left: 1rem;
+    margin-right: 0;
+
+}
+
+.cartaz img {
+    width: 55%;
+}
+
+p {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#Bruxa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 3rem;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+#bruxa2025 {
+    align-items: center;
+    text-align: center;
+}
+
+.bruxa2025 {
+    margin: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    align-content: center;
+    text-align: center;
+    font-size: 0.4rem;
+}
+
+#video video {
+    width: 23rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media (max-width:700px) {
+    .pele2025 {
+        font-size: small;
+    }
+
+    #divpele {
+        width: 60%;
+    }
+
+    .bruxa2025 {
+        font-size: small;
+    }
+
+    #video video {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #pele {
+        margin-top: 6rem;
+    }
+
+    footer {
+        padding-bottom: 0.2rem;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:426px) {
+
+    .pele2025 {
+        padding-top: 5rem;
+    }
+
+    #Dayane {
+        text-align: left;
+    }
+
+    #divpele video {
+        width: 17rem
+    }
+
+    #divpele img {
+        width: 7rem
+    }
+
+    p {
+        text-align: left;
+        margin-left: 0;
+    }
+}
