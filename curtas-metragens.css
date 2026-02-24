@@ -77,8 +77,8 @@ p {
 /* composição visual */
 
 .visual {
-    margin: 1rem 2rem 2rem 2rem;
-    margin-bottom: 2rem;
+    margin: 1rem 2rem 2rem;
+    margin-bottom: 3.5rem;
     align-items: center;
     text-align: center;
 }
